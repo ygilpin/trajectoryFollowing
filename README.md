@@ -1,2 +1,2 @@
 # trajectoryFollowing
-This is a reposity of LQR Trajectory Follower for use with ROS and PX4_Mocap. 
+This is a reposity of a LQR Trajectory Follower implementation for use with ROS and PX4_Mocap. 
