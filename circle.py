@@ -3,7 +3,9 @@
 ##
 #
 # Quick script to control the UAV autonomously using mavros commands. 
-#
+# It attempts to create a trajectory follower by feeding positions 
+# to the waypoint follower of Ardupilot
+# 
 # Before running, check that:
 #   - An instance of mavros is running and the connection is healthy
 #   - The UAV's location (/mavros/local_position/pose) is accurate
