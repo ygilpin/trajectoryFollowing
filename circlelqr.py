@@ -3,7 +3,8 @@
 ##
 #
 # Quick script to control the UAV autonomously using mavros commands. 
-# Using an LQR trajectory following control system to follow a figure 8.
+# Using an discrete time LQR trajectory following control system to 
+# follow a figure 8.
 #
 # Before running, check that:
 #   - An instance of mavros is running and the connection is healthy
