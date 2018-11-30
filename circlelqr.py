@@ -86,6 +86,7 @@ class MavController:
         print(dist)
 
     def goto_xyz_w(self, x, y, z, arrival):
+        """A function that sends the drone to a waypoint, but waits to be within "arrival" before finishing"""
         pose = Pose()
         pose.position.x = x
         pose.position.y = y
