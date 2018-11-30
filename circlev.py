@@ -3,13 +3,13 @@
 ##
 #
 # Quick script to control the UAV autonomously using mavros commands. 
+# It attempts to implement a feed forward trajectory follower by 
+# writing a series of calculus determined commanded velocities. 
 # 
 # Before running, check that:
 #   - An instance of mavros is running and the connection is healthy
 #   - The UAV's location (/mavros/local_position/pose) is accurate
 #
-# This flies the drone in a circle using only feedfoward control determined
-# using calculus. 
 ##
 
 import rospy
